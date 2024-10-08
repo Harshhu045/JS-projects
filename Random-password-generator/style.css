@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    /* box-sizing: border-box; */
+    /* background-color: #19172e; */
+}
+body,html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    background-color: #19172e;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333a56;
+}
+#Size,
+#Password{
+    width: 300px;
+    height: 40px;
+    font-size: large;
+    color: black;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-weight: 100;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.checks label{
+    color: white;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    gap: 10px;
+}
+.checks input{
+    display: inline-block;
+    width: auto;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+.container button{
+    background-color: #333;
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 500;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #1e8e3e;
+}
+
+.footer{
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding-top: 20px;
+    position: fixed;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer a{
+    color: #00BFFF;
+    font-weight: 700;
+    text-decoration: none;
+}

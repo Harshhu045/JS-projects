@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Random Password Generator!</h2>
+        <input id="Password" type="text" placeholder="create Password" readonly>
+        <input id="Size" type="number" min="8" max="32" value="16" placeholder="enter the Size of Password!">
+        <div class="checks">
+            <label > <input type="checkbox" id="includeLowercase" checked> Lowercase(a-z)</label>
+            <label> <input type="checkbox" id="includeUppercase" checked>Uppercase(A-Z)</label>
+            <label> <input type="checkbox" id="includeSymbols" checked>Symbols(@-*)</label>
+            <label> <input type="checkbox" id="includeNumbers" checked> Numbers(0-9)</label>
+        </div>
+
+        <button id="btn" onclick="getPassword()">Generate</button>
+    </div>
+
+
+    <div class="footer">
+        <p> Made with ❤️ by 
+            <a href="https://github.com/Harshhu045">Harsh_hu</a>
+        </p>
+     </div>
+</body>
+<script src="script.js"></script>
+</html>
